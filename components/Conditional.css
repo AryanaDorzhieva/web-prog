@@ -1,0 +1,28 @@
+
+
+.conditional-message {
+  margin: 20px auto;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: 500;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.conditional-message.logged-in {
+  background-color: #e6ffe6; /* Light green */
+  border: 1px solid #4CAF50; /* Green */
+  color: #2e7d32; /* Darker green */
+}
+
+.conditional-message.logged-out {
+  background-color: #fff3e0; /* Light orange */
+  border: 1px solid #FF9800; /* Orange */
+  color: #e65100; /* Darker orange */
+}
+
+.user-name {
+  font-weight: bold;
+  color: #1a5120; /* Even darker green */
+}
