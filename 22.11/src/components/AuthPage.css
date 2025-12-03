@@ -1,0 +1,22 @@
+.btn {
+  background-color: #769cb9; 
+  color: white;
+  padding: 5px 10px;
+  border-color: #90a7b5;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background-color: #44789b;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  background-color: #273e4d;
+  transform: translateY(0);
+}

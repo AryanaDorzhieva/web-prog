@@ -1,0 +1,73 @@
+.app-title {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+.add-item-input {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 70%;
+  max-width: 300px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.add-item-input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.alogin-button {
+  background-color: #3498db; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 20px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.alogin-button:hover {
+  background-color: #2980b9; 
+  transform: translateY(-2px);
+}
+
+.alogin-button:active {
+  background-color: #21618c;
+  transform: translateY(0);
+}
+
+.qlogin-button {
+  background-color: aliceblue;
+  color: #8db5d0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border-color: #8db5d0;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 20px;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.qlogin-button:hover {
+  color: #2c3e50;
+  background-color: #83b2d1; 
+  transform: translateY(-2px);
+}
+
+.qlogin-button:active {
+  background-color: #a4cde9;
+  transform: translateY(0);
+}
